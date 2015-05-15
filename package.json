@@ -1,0 +1,30 @@
+{
+  "name": "TwitterProfile",
+  "version": "1.0.0",
+  "description": "Get last 5 tweets, number of tweets, followers and following of a Twitter username",
+  "private": true,
+  "main": "twitter.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bkbooth/TwitterProfile.git"
+  },
+  "keywords": [
+    "Twitter",
+    "profile",
+    "tweet"
+  ],
+  "author": "Ben Booth <bkbooth@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkbooth/TwitterProfile/issues"
+  },
+  "homepage": "https://github.com/bkbooth/TwitterProfile",
+  "dependencies": {
+    "native-promise-only": "^0.7.8-a",
+    "node-fetch": "^1.2.1",
+    "btoa": "^1.1.2"
+  }
+}
